@@ -1,0 +1,24 @@
+portafolio/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   ├── juego.jpg          # Imagen del proyecto de juegos
+│   ├── pagina.png         # Imagen del proyecto de arroz
+│   └── ...                # Otras imágenes/assets
+│
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx     # Barra de navegación
+│   │   ├── Home.jsx       # Sección de inicio/presentación
+│   │   ├── Skills.jsx     # Sección de habilidades (este archivo)
+│   │   ├── Projects.jsx   # Sección de proyectos
+│   │   └── Footer.jsx     # Pie de página con contacto
+│   │
+│   ├── App.jsx            # Componente principal que organiza las secciones
+│   ├── main.jsx           # Punto de entrada de la aplicación
+│   ├── index.css          # Estilos globales
+│   └── ...               # Otros archivos necesarios
+│
+├── package.json          # Dependencias y scripts
+├── tailwind.config.js    # Configuración de Tailwind CSS
+└── ...                   # Otros archivos de configuración
